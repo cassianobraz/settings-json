@@ -1,102 +1,233 @@
 {
-  "explorer.compactFolders": false,
-  "code-runner.runInTerminal": true,
-  "editor.fontSize": 16,
-  "code-runner.clearPreviousOutput": true,
-  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
-  "editor.minimap.enabled": true,
-  "files.autoSave": "afterDelay",
+  // Workbench
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
-  "tabnine.experimentalAutoImports": true,
-  "code-runner.ignoreSelection": true,
-  "code-runner.executorMap": {
-    "python": "cls ; python -u",
-    "html": "cls ; html -u"
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "left",
+  "workbench.list.smoothScrolling": true,
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  // Explorer
+  "explorer.compactFolders": false,
+  // Editor and breadcrumbs
+  "extensions.ignoreRecommendations": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.tabSize": 2,
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
   },
-  "editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
-  "terminal.integrated.fontFamily": "",
-  "editor.fontLigatures": false,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.fixAll.unusedImports": "explicit",
-      "source.organizeImports": "explicit"
-    }
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": true,
+  "editor.snippetSuggestions": "top",
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.formatOnPaste": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.unusedImports": "explicit",
+    "source.organizeImports": "explicit"
   },
-  "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true,
-  "workbench.startupEditor": "none",
-  "explorer.confirmDragAndDrop": false,
-  "git.autofetch": true,
-  "[django-html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0,
-  "python.languageServer": "Pylance", // ms-python.vscode-pylance
-  "python.testing.unittestEnabled": false, // ms-python.python
-  "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": [], // -x to bail
-  "python.linting.flake8Enabled": true,
-  "python.linting.mypyEnabled": true,
-  "python.linting.pylintArgs": [
-    "--load-plugins=pylint_django",
-    "--errors-only"
-  ],
-  "python.formatting.autopep8Args": ["--indent-size=4"],
-  "python.defaultInterpreterPath": "venv/bin/python",
-
-  "[html]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": true
-    }
+  "editor.parameterHints.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
   },
-  "[django-html]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": true
-    }
+  "editor.glyphMargin": false,
+  "editor.fontLigatures": true,
+  // Git
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  // Files and search
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "files.exclude": {
+    "USE_GITIGNORE": true
   },
-  "files.associations": {
-    "*.js": "javascript",
-    "*.jsx": "javascriptreact",
-    "*.xml": "html",
-    "*.svg": "html",
-    "*.html": "html",
-    "django-html": "html", // batisteo.vscode-django
-    "*/.html": "html",
-    "*/templates//.html": "django-html",
-    "*/base_templates//.html": "django-html",
-    "*/requirements{/,}.{txt,in}": "pip-requirements"
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  // Javascript & TypeScript
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.validate.enable": false,
+  "[javascript]": {
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": true
   },
   "emmet.includeLanguages": {
-    "django-html": "html", // batisteo.vscode-django
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
+    "javascript": "javascriptreact"
   },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  // PHP
+  "[php]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true
+  },
+  "python.testing.unittestEnabled": true,
+  // Code runner
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.executorMap": {
+    "python": "cls ; python -u",
+    "typescript": "npx ts-node --files --transpile-only"
+  },
+  // CSpell checker extension
+  "cSpell.enabled": true,
+  "cSpell.language": "en,pt",
   "editor.wordWrap": "on",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "editor.tabSize": 2,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
   "terminal.integrated.env.windows": {},
-  "console-ninja.featureSet": "Community"
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "editor.guides.bracketPairs": "active",
+  "pythonIndent.keepHangingBracketOnLine": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "codeium.enableCodeLens": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.mouseWheelZoom": true,
+  "editor.scrollbar.vertical": "hidden",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+  "cSpell.userWords": [
+    "bootcamp",
+    "chakra",
+    "checkin",
+    "checkins",
+    "clsx",
+    "Codegen",
+    "codeium",
+    "datadog",
+    "Datetime",
+    "dayjs",
+    "Dotenv",
+    "Elysia",
+    "esbuild",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "ffprobe",
+    "Hasher",
+    "Hono",
+    "ilike",
+    "IUGU",
+    "jamjuree",
+    "jupiter",
+    "liveblocks",
+    "LIVEBLOCKS",
+    "Marguerita",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "omni",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "postgres",
+    "postgresql",
+    "prefetch",
+    "reactflow",
+    "roboto",
+    "rocketseat",
+    "rotion",
+    "rsxp",
+    "Sandpack",
+    "shiki",
+    "skylab",
+    "sqlite",
+    "supergraph",
+    "svgr",
+    "sympla",
+    "tailwindcss",
+    "textblock",
+    "tiptap",
+    "trpc",
+    "TRPC",
+    "tsup",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "Usuario",
+    "WEBPUSH"
+  ]
 }

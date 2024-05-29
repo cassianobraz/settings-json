@@ -74,6 +74,9 @@
       "[\"'`]([^\"'`]*).*?[\"'`]"
     ]
   ],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -120,6 +123,7 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "python.defaultInterpreterPath": "python",
   // PHP
   "[php]": {
     "editor.insertSpaces": true,
@@ -154,7 +158,9 @@
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "codeium.enableCodeLens": false,
-  "prisma.showPrismaDataPlatformNotification": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
   "editor.mouseWheelZoom": true,
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
@@ -229,5 +235,6 @@
     "upsert",
     "Usuario",
     "WEBPUSH"
-  ]
+  ],
+  "prisma.showPrismaDataPlatformNotification": false
 }

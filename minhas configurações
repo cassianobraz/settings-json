@@ -1,12 +1,10 @@
 {
-  // Workbench
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": false,
   "workbench.sideBar.location": "left",
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   // Explorer
   "explorer.compactFolders": false,
   // Editor and breadcrumbs
@@ -16,16 +14,25 @@
   "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.tabSize": 2,
-  "files.associations": {
-    ".env.*": "dotenv",
-    ".prettierrc": "json",
-    "*.css": "css"
-  },
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [
     80,
     120
   ],
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.exemple": "gear"
+  },
   "cSpell.enableFiletypes": [
     "!asciidoc",
     "!c",
@@ -68,17 +75,11 @@
     "javascriptreact",
     "graphql"
   ],
-  "tailwindCSS.experimental.classRegex": [
-    [
-      "tv\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
-    ]
-  ],
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -87,10 +88,7 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
   "typescript.suggest.autoImports": true,
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "editor.glyphMargin": false,
+  // "editor.glyphMargin": false,
   "editor.fontLigatures": true,
   // Git
   "git.enableSmartCommit": true,
@@ -112,7 +110,7 @@
   // Javascript & TypeScript
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
-  "javascript.validate.enable": false,
+  "javascript.validate.enable": true,
   "[javascript]": {
     "editor.suggestSelection": "recentlyUsed",
     "editor.suggest.showKeywords": true
@@ -124,18 +122,12 @@
     "javascript": "jsx"
   },
   "python.defaultInterpreterPath": "python",
-  // PHP
-  "[php]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4
-  },
   "[python]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.formatOnType": true
   },
   "python.testing.unittestEnabled": true,
-  // Code runner
   "code-runner.clearPreviousOutput": true,
   "code-runner.ignoreSelection": true,
   "code-runner.saveFileBeforeRun": true,
@@ -163,15 +155,9 @@
   },
   "editor.mouseWheelZoom": true,
   "editor.scrollbar.vertical": "hidden",
-  "explorer.sortOrder": "foldersNestsFiles",
-  "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-    "tailwind.config.js": "tailwind.config*, postcss.config*",
-    ".env.local": ".env*",
-    ".env": ".env*"
-  },
   "explorer.fileNesting.enabled": true,
   "cSpell.userWords": [
+    "AUTOINCREMENT",
     "bootcamp",
     "chakra",
     "checkin",
@@ -215,6 +201,7 @@
     "rotion",
     "rsxp",
     "Sandpack",
+    "SGBD",
     "shiki",
     "skylab",
     "sqlite",
@@ -234,7 +221,8 @@
     "unmark",
     "upsert",
     "Usuario",
+    "VARCHAR",
     "WEBPUSH"
   ],
-  "prisma.showPrismaDataPlatformNotification": false
+  "workbench.colorTheme": "Omni"
 }

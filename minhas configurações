@@ -2,7 +2,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "workbench.sideBar.location": "left",
   "workbench.list.smoothScrolling": true,
   // Explorer
@@ -24,14 +24,6 @@
     ".env.*": "dotenv",
     ".prettierrc": "json",
     "*.css": "css"
-  },
-  "symbols.files.associations": {
-    "*.module.ts": "nest",
-    "*.guard.ts": "typescript",
-    "*.spec.ts": "ts-test",
-    "*.e2e-spec.ts": "ts-test",
-    "vitest.config.e2e.ts": "vite",
-    ".env.exemple": "gear"
   },
   "cSpell.enableFiletypes": [
     "!asciidoc",
@@ -67,6 +59,7 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
     "source.fixAll.unusedImports": "explicit",
     "source.organizeImports": "explicit"
   },
@@ -113,7 +106,8 @@
   "javascript.validate.enable": true,
   "[javascript]": {
     "editor.suggestSelection": "recentlyUsed",
-    "editor.suggest.showKeywords": true
+    "editor.suggest.showKeywords": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -221,8 +215,10 @@
     "unmark",
     "upsert",
     "Usuario",
+    "uuidv",
     "VARCHAR",
     "WEBPUSH"
   ],
-  "workbench.colorTheme": "Omni"
+  "terminal.explorerKind": "external",
+  "workbench.colorTheme": "GitHub Dark Default"
 }

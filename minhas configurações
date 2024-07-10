@@ -147,6 +147,12 @@
   "[prisma]": {
     "editor.formatOnSave": true
   },
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
   "editor.mouseWheelZoom": true,
   "editor.scrollbar.vertical": "hidden",
   "explorer.fileNesting.enabled": true,

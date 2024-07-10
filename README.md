@@ -1,3 +1,9 @@
+# Powershell
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
 # Prompt lendário para node windows 
 
 ```

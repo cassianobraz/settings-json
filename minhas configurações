@@ -44,6 +44,13 @@
     "!scala",
     "!scss"
   ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+  ],
   "editor.minimap.enabled": false,
   "editor.detectIndentation": true,
   "editor.snippetSuggestions": "top",
@@ -226,5 +233,8 @@
     "WEBPUSH"
   ],
   "terminal.explorerKind": "external",
-  "workbench.colorTheme": "GitHub Dark Default"
+  "workbench.colorTheme": "GitHub Dark Default",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }

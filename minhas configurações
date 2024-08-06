@@ -51,7 +51,7 @@
     ],
     "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.detectIndentation": true,
   "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": "off",
@@ -65,18 +65,11 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.unusedImports": "explicit",
-    "source.organizeImports": "explicit"
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "graphql"
-  ],
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -111,11 +104,6 @@
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "javascript.validate.enable": true,
-  "[javascript]": {
-    "editor.suggestSelection": "recentlyUsed",
-    "editor.suggest.showKeywords": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -136,7 +124,7 @@
   "code-runner.preserveFocus": false,
   "code-runner.executorMap": {
     "python": "cls ; python -u",
-    "typescript": "npx ts-node --files --transpile-only"
+    "typescript": "pnpm exec ts-node --files --transpile-only"
   },
   // CSpell checker extension
   "cSpell.enabled": true,
@@ -233,8 +221,13 @@
     "WEBPUSH"
   ],
   "terminal.explorerKind": "external",
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "OM Theme (No Italic)",
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "console-ninja.featureSet": "Community",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
   }
 }

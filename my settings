@@ -1,7 +1,6 @@
 {
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.labelFormat": "short",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.enablePreview": true,
   "workbench.sideBar.location": "left",
   "workbench.list.smoothScrolling": true,
@@ -51,7 +50,6 @@
     ],
     "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
-  "editor.minimap.enabled": true,
   "editor.detectIndentation": true,
   "editor.snippetSuggestions": "top",
   "editor.wordBasedSuggestions": "off",
@@ -153,6 +151,7 @@
   "editor.scrollbar.vertical": "hidden",
   "explorer.fileNesting.enabled": true,
   "cSpell.userWords": [
+    "autohide",
     "biomejs",
     "codeium",
     "lockb",
@@ -167,5 +166,12 @@
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
-  }
+  },
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth"
 }

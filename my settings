@@ -63,6 +63,8 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit",
     "source.removeUnusedImports": "explicit"
@@ -154,8 +156,11 @@
     "autohide",
     "biomejs",
     "codeium",
+    "esbenp",
     "lockb",
-    "quickfix"
+    "quickfix",
+    "rocketseat",
+    "tsup"
   ],
   "terminal.explorerKind": "external",
   "workbench.colorTheme": "OM Theme (No Italic)",
@@ -173,5 +178,9 @@
   "editor.minimap.autohide": true,
   "editor.scrollbar.horizontal": "hidden",
   "terminal.integrated.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.cursorBlinking": "smooth",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

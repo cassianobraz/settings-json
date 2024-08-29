@@ -20,10 +20,21 @@
   ],
   "typescript.tsserver.log": "off",
   "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
     ".env.*": "dotenv",
-    ".prettierrc": "json",
-    "*.css": "css"
+    ".prettierrc": "json"
   },
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },
+
   "cSpell.enableFiletypes": [
     "!asciidoc",
     "!c",
@@ -65,12 +76,13 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "explicit",
-    "quickfix.biome": "explicit",
-    "source.organizeImports.biome": "explicit",
+    // "quickfix.biome": "explicit",
+    // "source.organizeImports.biome": "explicit",
     "source.removeUnusedImports": "explicit"
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -160,6 +172,8 @@
     "lockb",
     "quickfix",
     "rocketseat",
+    "sequelizerc",
+    "stylelintrc",
     "tsup"
   ],
   "terminal.explorerKind": "external",
@@ -182,5 +196,6 @@
   "editor.cursorBlinking": "smooth",
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.fontSize": 16
 }

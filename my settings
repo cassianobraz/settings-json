@@ -81,6 +81,10 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[php]": {
+    "editor.defaultFormatter": "mansoorkhan96.php-cs-fixer"
+  },
+  "php-cs-fixer.config": "c:\\tools\\php-cs-fixer\\.php-cs-fixer.php",
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
@@ -88,10 +92,9 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
   "typescript.suggest.autoImports": true,
-  // "editor.glyphMargin": false,
   "editor.fontLigatures": true,
   // Git
-  "git.enableSmartCommit": true,
+  "git.enableSmartCommit": false,
   "diffEditor.ignoreTrimWhitespace": true,
   // Files and search
   "files.defaultLanguage": "{activeEditorLanguage}",
@@ -163,7 +166,10 @@
     "biomejs",
     "codeium",
     "esbenp",
+    "fastify",
     "lockb",
+    "mansoorkhan",
+    "postgresql",
     "quickfix",
     "rocketseat",
     "sequelizerc",
@@ -188,5 +194,6 @@
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.cursorBlinking": "smooth",
-  "editor.fontSize": 16
+  "editor.fontSize": 16,
+  "redhat.telemetry.enabled": true
 }

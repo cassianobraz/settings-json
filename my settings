@@ -84,6 +84,10 @@
   "[php]": {
     "editor.defaultFormatter": "mansoorkhan96.php-cs-fixer"
   },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+    "editor.formatOnSave": true
+  },
   "php-cs-fixer.config": "c:\\tools\\php-cs-fixer\\.php-cs-fixer.php",
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -173,6 +177,7 @@
     "quickfix",
     "rocketseat",
     "sequelizerc",
+    "shufo",
     "stylelintrc",
     "tsup"
   ],
@@ -195,5 +200,7 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.cursorBlinking": "smooth",
   "editor.fontSize": 16,
-  "redhat.telemetry.enabled": true
+  "redhat.telemetry.enabled": true,
+  "biome.enabled": false,
+  "bladeFormatter.format.sortTailwindcssClasses": true
 }

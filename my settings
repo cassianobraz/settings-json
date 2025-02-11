@@ -14,7 +14,7 @@
   "editor.renderControlCharacters": false,
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [79, 120],
+  "editor.rulers": [80, 120],
   "typescript.tsserver.log": "off",
   "files.associations": {
     ".sequelizerc": "javascript",
@@ -31,25 +31,6 @@
     "vitest.config.e2e.ts": "vite",
     ".env.example": "gear"
   },
-  "cSpell.enableFiletypes": [
-    "!asciidoc",
-    "!c",
-    "!cpp",
-    "!csharp",
-    "!go",
-    "!handlebars",
-    "!haskell",
-    "!jade",
-    "!java",
-    "!latex",
-    "!php",
-    "!pug",
-    "!python",
-    "!restructuredtext",
-    "!rust",
-    "!scala",
-    "!scss"
-  ],
   "tailwindCSS.experimental.classRegex": [
     ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     "class:\\s*?[\"'`]([^\"'`]*).*?,"
@@ -65,6 +46,7 @@
   "editor.smoothScrolling": true,
   "editor.linkedEditing": true,
   "editor.fontFamily": "JetBrains Mono",
+  "fonted.font": "JetBrains Mono",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
@@ -129,8 +111,6 @@
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
   "terminal.integrated.env.windows": {},
-  "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
   "editor.guides.bracketPairs": "active",
   "pythonIndent.keepHangingBracketOnLine": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
@@ -171,20 +151,15 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "console-ninja.featureSet": "Community",
-  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
-    "live-server-extension": true,
-    "live-preview-extension": true
-  },
   "symbols.hidesExplorerArrows": false,
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "editor.minimap.autohide": true,
   "editor.scrollbar.horizontal": "hidden",
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.cursorBlinking": "smooth",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.lineHeight": 2,
   "projectManager.git.baseFolders": [
     "C:\\Users\\cassa\\OneDrive\\Documentos\\Github",
@@ -194,7 +169,25 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "files.eol": "\n",
-  "biome.enabled": false,
   "editor.inlineSuggest.suppressSuggestions": true,
-  "security.promptForLocalFileProtocolHandling": false
+  "security.promptForLocalFileProtocolHandling": false,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "biome.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "git.confirmSync": false,
+  "inlineChat.lineNaturalLanguageHint": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "console-ninja.featureSet": "Community"
 }

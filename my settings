@@ -4,9 +4,7 @@
   "workbench.editor.enablePreview": true,
   "workbench.sideBar.location": "right",
   "workbench.list.smoothScrolling": true,
-  // Explorer
   "explorer.compactFolders": false,
-  // Editor and breadcrumbs
   "extensions.ignoreRecommendations": true,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -61,10 +59,8 @@
   "terminal.integrated.showExitAlert": false,
   "typescript.suggest.autoImports": true,
   "editor.fontLigatures": true,
-  // Git
   "git.enableSmartCommit": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  // Files and search
   "files.defaultLanguage": "{activeEditorLanguage}",
   "files.exclude": {
     "USE_GITIGNORE": true
@@ -78,7 +74,6 @@
     "**/.build": true,
     "**/.gh-pages": true
   },
-  // Javascript & TypeScript
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "javascript.validate.enable": true,
@@ -88,14 +83,12 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "python.defaultInterpreterPath": "python",
   "[python]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.testing.unittestEnabled": true,
   "code-runner.clearPreviousOutput": true,
   "code-runner.ignoreSelection": true,
   "code-runner.saveFileBeforeRun": true,
@@ -105,17 +98,14 @@
     "python": "cls ; python -u",
     "typescript": "pnpm exec ts-node --files --transpile-only"
   },
-  // CSpell checker extension
   "cSpell.enabled": true,
   "cSpell.language": "en,pt",
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
   "terminal.integrated.env.windows": {},
   "editor.guides.bracketPairs": "active",
-  "pythonIndent.keepHangingBracketOnLine": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "codeium.enableCodeLens": false,
   "[prisma]": {
     "editor.formatOnSave": true
   },
@@ -160,14 +150,7 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.cursorBlinking": "smooth",
   "editor.fontSize": 16,
-  "editor.lineHeight": 2,
-  "projectManager.git.baseFolders": [
-    "C:\\Users\\cassa\\OneDrive\\Documentos\\Github",
-    "C:\\Users\\02642035263\\Documents\\GitHub"
-  ],
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
+  "editor.lineHeight": 1.8,
   "files.eol": "\n",
   "editor.inlineSuggest.suppressSuggestions": true,
   "security.promptForLocalFileProtocolHandling": false,
@@ -189,5 +172,7 @@
   "inlineChat.lineNaturalLanguageHint": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "console-ninja.featureSet": "Community"
+  "cody.commandHints.enabled": true,
+  "cody.codeActions.enabled": true,
+  "cody.suggestions.mode": "autocomplete"
 }

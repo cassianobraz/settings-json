@@ -83,6 +83,7 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "python.defaultInterpreterPath": "python",
   "[python]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
@@ -149,7 +150,7 @@
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.cursorBlinking": "smooth",
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.8,
   "files.eol": "\n",
   "editor.inlineSuggest.suppressSuggestions": true,
@@ -157,7 +158,7 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "biome.enabled": false,
+  "biome.enabled": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -169,6 +170,7 @@
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "git.confirmSync": false,
+  "python.createEnvironment.trigger": "off",
   "inlineChat.lineNaturalLanguageHint": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,

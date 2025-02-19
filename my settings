@@ -83,13 +83,6 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "python.defaultInterpreterPath": "python",
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
   "code-runner.clearPreviousOutput": true,
   "code-runner.ignoreSelection": true,
   "code-runner.saveFileBeforeRun": true,
@@ -158,7 +151,6 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "biome.enabled": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -170,7 +162,6 @@
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   "git.confirmSync": false,
-  "python.createEnvironment.trigger": "off",
   "inlineChat.lineNaturalLanguageHint": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,

@@ -30,3 +30,12 @@ docker run -d -p 9000:9000 -p 8000:8000 --name=portainer --restart=always -v /va
 ```
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
+
+# Redis
+
+```
+docker container run --name redisDEPLOY -p 6379:6379 redis:7.4.1
+
+docker exec -it redisDEPLOY redis-cli
+```
+
